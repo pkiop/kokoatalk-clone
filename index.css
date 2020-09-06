@@ -4,20 +4,18 @@
   text-align:center;
 }
 
-#service {
+#services {
   flex-grow:3;
-}
-
-#wifi {
-
+  display:flex;
 }
 
 #time {
   flex-grow: 5;
+  display:flex;
 }
 
-#batteryPercent {
-
-  flex-grow: 2;
+#status {
+  flex-grow: 3;
+  display:flex;
 }
 
