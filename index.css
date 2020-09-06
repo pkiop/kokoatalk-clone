@@ -1,0 +1,23 @@
+#status-bar {
+  display: flex;
+  width:50%;
+  text-align:center;
+}
+
+#service {
+  flex-grow:3;
+}
+
+#wifi {
+
+}
+
+#time {
+  flex-grow: 5;
+}
+
+#batteryPercent {
+
+  flex-grow: 2;
+}
+
