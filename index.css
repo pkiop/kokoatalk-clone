@@ -1,21 +1,9 @@
-#status-bar {
-  display: flex;
+.status-bar {
   width:50%;
-  text-align:center;
 }
 
-#services {
+.status-bar__column{
   flex-grow:3;
-  display:flex;
 }
 
-#time {
-  flex-grow: 5;
-  display:flex;
-}
-
-#status {
-  flex-grow: 3;
-  display:flex;
-}
 

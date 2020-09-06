@@ -9,19 +9,19 @@
   </style>
 </head>
 <body>
-  <div id="status-bar">
-    <div id="services">
-      <div id="service">No Service</div>
-      <img id="wifi" src="./icon/wifi.png" alt="Wifi signal strength">
+  <div class="status-bar">
+    <div class="status-bar__column"></div>
+      <span>No Service</span>
+      <!-- TODO apply wifi icon FIXME apply wifi-->
+      <i class="fas fa-wifi"></i>
+    <div class="status-bar__column">
+      <span>18:43</span>
     </div>
-    <div id="time">18:43</div>
-    <div id="status">
-      <img id="rotate" src="./icon/rotate.png" alt="rotate icon">
-      <div id="batteryPercent">11%</div>
-      <img id="battery" src="./icon/battery.png" alt="battery status image">
-      <img id="charging" src="./icon/charging.png" alt="is charging">
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-full"></i>
+      <i class="fas fa-bolt"></i>
     </div>
-
   </div>
   <h1>Welcome to KaKaoTalk</h1>
   <h2>If you have a Kakao Account, log in with your email or phone number.</h2>
@@ -31,5 +31,6 @@
   <button>Log In</button>
   <button>Sign Up</button>
   <button>Find Kakao Account or Password</button>
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
