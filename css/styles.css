@@ -36,8 +36,11 @@ body {
   border: none;
   padding: 15px 0px;
   font-size:18px;
-  border-bottom:1px solid rgba(0,0,0,0.2);
   margin-bottom: 25px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom:1px solid rgba(0,0,0,0.2);
   transition: border-color .3s ease-in-out;
 }
 
@@ -47,4 +50,18 @@ body {
 
 #login-form input:focus {
   border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: not-allowed;
+  padding: 20px 0px; 
+  border-radius: 10px;
+} 
+
+#login-form a { /* a 는 anchor로 읽음 */ 
+  text-align: center;
+  text-decoration: none;
+  color:inherit; /* 상속 받은 color 그대로 쓴다. */
+  font-size: 13px;
 }
