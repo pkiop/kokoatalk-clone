@@ -4,9 +4,9 @@
 @import "variables.css";
 @import "screens/login.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 body {
-  height: 1000vh;
   font-family: "Open Sans", sans-serif;
 }
 
