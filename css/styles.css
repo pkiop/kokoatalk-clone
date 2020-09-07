@@ -1,67 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
 @import "variables.css";
+@import "screens/login.css";
+@import "components/nav-bar.css";
+
 body {
+  height: 1000vh;
   font-family: "Open Sans", sans-serif;
 }
 
-.welcome-header {
-  /* // 위아래 90, 좌우 0 */
-  margin: 90px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-weight: 600;
-}
-
-.welcome-header__title {
-  margin-bottom: 40px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 50%;
-  opacity: 0.7;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 30px
-}
-
-#login-form input {
-  border: none;
-  padding: 15px 0px;
-  font-size:18px;
-  margin-bottom: 25px;
-}
-
-#login-form input:not([type="submit"]) {
-  border-bottom:1px solid rgba(0,0,0,0.2);
-  transition: border-color .3s ease-in-out;
-}
-
-#login-form input::placeholder {
-  color: rgba(0,0,0,0.4);
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: not-allowed;
-  padding: 20px 0px; 
-  border-radius: 10px;
-} 
-
-#login-form a { /* a 는 anchor로 읽음 */ 
-  text-align: center;
-  text-decoration: none;
-  color:inherit; /* 상속 받은 color 그대로 쓴다. */
-  font-size: 13px;
-}
