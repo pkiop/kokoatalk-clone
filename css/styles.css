@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 
 body {
+  height: 1000vh;
   font-family: "Open Sans", sans-serif;
 }
 
