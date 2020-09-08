@@ -6,6 +6,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/friends.css";
+@import "components/user-components.css";
 
 body {
   color: #2e363e;
