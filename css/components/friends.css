@@ -25,7 +25,3 @@
   margin-bottom: 30px;
   color: rgba(0, 0, 0, 0.5);
 }
-
-.user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
-}
