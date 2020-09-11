@@ -8,6 +8,7 @@
 @import "components/friends.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/find.css";
 
 body {
   color: #2e363e;
